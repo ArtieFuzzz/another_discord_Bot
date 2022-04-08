@@ -13,7 +13,7 @@ defmodule Alphalix.Utils.Time do
                      "2017-03-29T21:09:25.274000+00:00")
       200
   """
-  def diff(time1, time2, unit \\ :milliseconds) do
+  def diff(time1, time2, unit \\ :millisecond) do
     from = fn
       %NaiveDateTime{} = x -> x
       x -> NaiveDateTime.from_iso8601!(x)
