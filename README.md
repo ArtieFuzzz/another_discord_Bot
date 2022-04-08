@@ -4,4 +4,4 @@
 
 ## Todo
 
-- [] Add a command that uses embeds
+- [ ] Add a command that uses embeds
